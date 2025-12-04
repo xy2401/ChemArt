@@ -1,0 +1,5 @@
+{
+  "name": "ChemArt: Nature Reimagined",
+  "description": "A high-fidelity 3D visualization suite recreating Nature Chemistry aesthetic using Three.js.",
+  "requestFramePermissions": []
+}
