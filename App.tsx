@@ -187,8 +187,8 @@ const App: React.FC = () => {
           <color attach="background" args={['#0f172a']} />
           
           <Suspense fallback={null}>
-            {/* Load HDR from local public directory */}
-            <Environment files="/studio_small_03_1k.hdr" blur={0.8} />
+            {/* Load HDR from relative path (removed leading slash) */}
+            <Environment files="studio_small_03_1k.hdr" blur={0.8} />
             <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
             
             {/* Main Content */}
